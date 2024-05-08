@@ -15,7 +15,7 @@ const bucketName = "learntest";
 const uploadFile = await client.send(
   new PutObjectCommand({
     Bucket: bucketName,
-    Key: "testimage-v3.jpg",
+    Key: "random/testimage.jpg",
     Body: fs.createReadStream("./testimage.jpg"),
     ContentType: "image/jpeg",
   })

@@ -11,6 +11,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.569.0"
+    "@aws-sdk/client-s3": "^3.569.0",
+    "formidable": "^3.5.1",
+    "nanoid": "^5.0.7"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.1.0"
   }
 }
