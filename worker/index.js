@@ -1,3 +1,4 @@
+// Copied from: https://github.com/backblaze-b2-samples/cloudflare-b2/blob/main/index.js
 //
 // Proxy Backblaze S3 compatible API requests, sending notifications to a webhook
 //
